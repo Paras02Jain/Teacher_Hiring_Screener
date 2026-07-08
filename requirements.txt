@@ -1,0 +1,23 @@
+streamlit>=1.32.0
+pdfplumber>=0.10.3
+numpy>=1.24.0
+requests>=2.31.0
+openpyxl>=3.1.0
+scikit-learn>=1.3.0
+sentence-transformers>=2.7.0
+plotly>=5.18.0
+# No extra package needed for Groq — uses Python built-in urllib
+# Get your FREE Groq API key at: https://console.groq.com
+chromadb>=0.4.0
+# interview_generator and rag_engine use only stdlib + packages already listed above
+
+# ── v9 Additions ───────────────────────────────────────────────────────────
+# Required for Executive Summary PDF generation (executive_pdf.py)
+reportlab>=4.1.0
+
+# ── Google Calendar Integration ────────────────────────────────────────────
+# Required for the auto-schedule interview slots feature (calendar_scheduler.py)
+# Get credentials.json from: Google Cloud Console → APIs & Services → Credentials
+google-auth>=2.28.0
+google-auth-oauthlib>=1.2.0
+google-api-python-client>=2.120.0
