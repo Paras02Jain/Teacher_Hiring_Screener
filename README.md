@@ -1,4 +1,4 @@
-# EduHire — Teacher Resume Screener (v9)
+# EduHire — Teacher Resume Screener
 
 A Streamlit app that screens teacher resumes against a job description, scores and ranks candidates, and helps a school hiring team move candidates through the pipeline — from JD bias checks to shortlisting, interview scheduling, and offer/reject emails.
 
