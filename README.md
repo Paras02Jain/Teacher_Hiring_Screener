@@ -2,8 +2,6 @@
 
 A Streamlit app that screens teacher resumes against a job description, scores and ranks candidates, and helps a school hiring team move candidates through the pipeline — from JD bias checks to shortlisting, interview scheduling, and offer/reject emails.
 
-> ⚠️ **Before sharing or committing this project:** the archive includes `credentials.json` and `calendar_token.pkl`, which look like live Google OAuth credentials/tokens for the Calendar integration. Remove or `.gitignore` these before pushing to any repo or handing the project to someone else.
-
 ## Features
 
 - **Resume Screening & Ranking** (`backend.py`) — Parses PDF resumes with `pdfplumber` and scores them against a job description. Uses Groq's LLM API for structured scoring (score, reasoning, strengths, red flags) when a Groq API key is provided, falling back to sentence-transformer embeddings, then TF-IDF, if not.
